@@ -6,10 +6,10 @@ import { RouterModule, Routes } from '@angular/router';
 
 const appRoutes: Routes = [
   {
-    path: '**', redirectTo: 'AppComponent',
+    path: 'home', redirectTo: 'AppComponent',
     // pathMatch: 'full'
   },
-];
+]
 
 @NgModule({
   declarations: [
