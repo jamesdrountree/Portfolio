@@ -9,12 +9,7 @@ const appRoutes: Routes = [
     path: '**', redirectTo: 'AppComponent',
     // pathMatch: 'full'
   },
-]
-
-
-
-
-
+];
 
 @NgModule({
   declarations: [
