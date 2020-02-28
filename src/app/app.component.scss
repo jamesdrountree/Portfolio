@@ -1,0 +1,93 @@
+
+$Xlarge: 1440px;
+$Large: 1024px;
+$Medium: 600px;
+$Small: 450px;
+
+
+$secondary: #384001;
+
+.container {
+
+}
+.main-content {
+    align-items: center;
+    background-image: url('/assets/Desktop.svg');
+    background-size: cover;
+    background-position: 45% 50%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+.main-copy {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 720px;
+    @media only screen and (max-width: $Large) {
+        margin: 0 154px;
+    }
+    @media only screen and (max-width: $Medium) {
+        margin: 0 80px;
+    }
+    @media only screen and (max-width: $Small) {
+        margin: 0 40px;
+    }
+}
+
+h1 {
+    font-size: 76px;
+    font-family: 'Playfair Display';
+    letter-spacing: 1.5px;
+    line-height: 76px;
+    margin: 0;
+    text-align: center;
+    @media only screen and (max-width: 1024px) {
+        font-size: 64px; 
+        line-height: 64px;
+    }
+    @media only screen and (max-width: 600px) {
+        font-size: 32px; 
+        line-height: 34px;
+    }
+}
+p {
+    font-size: 18px;
+    font-family: 'lato';
+    letter-spacing: .03px;
+    text-align: center;
+    @media only screen and (max-width: 1024px) {
+        font-size: 16px; 
+        line-height: 16px;
+    }
+    @media only screen and (max-width: $Medium) {
+        font-size: 12px; 
+    }
+}
+button {
+    background-color: #384001;
+    color: white;
+    cursor: pointer;
+    height:48px;
+    letter-spacing: 1px;
+    outline: none;
+    margin: 64px 0 0 0;
+    width: 290px;
+    /* border-radius: 24px; */
+    font-family: 'lato-black';
+    font-size: 21px;
+}
+button:hover {
+    opacity: .9;
+    border: none;
+}
+button:active{
+    background-color: darken($secondary, 5%);
+}
+
+.no-break {
+    white-space:nowrap;
+}
