@@ -27,6 +27,7 @@ $secondary: #384001;
     flex-direction: column;
     justify-content: center;
     max-width: 720px;
+    margin-top: 15%;
     @media only screen and (max-width: $Large) {
         margin: 0 154px;
     }
@@ -90,4 +91,28 @@ button:active{
 
 .no-break {
     white-space:nowrap;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    padding-top: 15%;
+    &-twitter {
+    height: 48px;
+    height: 48px;
+    padding: 0 8px;
+    }
+    &-linkedin {
+    height: 48px;
+    height: 48px;
+    padding: 0 8px;
+    }
+    &-gmail {
+    height: 48px;
+    height: 48px;
+    padding: 0 8px;
+    }
+}
+.content {
+
 }
