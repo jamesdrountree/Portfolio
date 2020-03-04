@@ -68,12 +68,16 @@ p {
         font-size: 12px; 
     }
 }
-button {
+.button {
     background-color: #384001;
     color: white;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height:48px;
     letter-spacing: 1px;
+    text-decoration: none;
     outline: none;
     margin: 64px 0 0 0;
     width: 290px;
