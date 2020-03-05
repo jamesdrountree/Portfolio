@@ -75,6 +75,7 @@ p {
     display: flex;
     font-family: 'lato';
     font-weight: bold;
+    font-size: 21px;
     justify-content: center;
     align-items: center;
     height:48px;
@@ -82,10 +83,7 @@ p {
     text-decoration: none;
     outline: none;
     margin: 64px 0 0 0;
-    width: 290px;
-    /* border-radius: 24px; */
-    font-family: 'lato-black';
-    font-size: 21px;
+    width: 290px; 
 }
 button:hover {
     opacity: .9;
