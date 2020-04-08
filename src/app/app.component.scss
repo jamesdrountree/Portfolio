@@ -93,6 +93,35 @@ button:active{
     background-color: darken($secondary, 5%);
 }
 
+.button-secondary {
+    background-color: white;
+    color: 384001;
+    cursor: pointer;
+    display: flex;
+    font-family: 'lato';
+    font-weight: bold;
+    font-size: 21px;
+    justify-content: center;
+    align-items: center;
+    height:48px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    outline: none;
+    margin: 24px 0 0 0;
+    width: 310px; 
+}
+.button-secondary:hover {
+    opacity: .9;
+    border: none;
+}
+.button-secondary:active{
+    background-color: darken($secondary, 5%);
+}
+
+
+
+
+
 .no-break {
     white-space:nowrap;
 }
