@@ -95,7 +95,8 @@ button:active{
 
 .button-secondary {
     background-color: white;
-    color: 384001;
+    border: 1.5px solid #384001;
+    color: #384001;
     cursor: pointer;
     display: flex;
     font-family: 'lato';
@@ -108,11 +109,10 @@ button:active{
     text-decoration: none;
     outline: none;
     margin: 24px 0 0 0;
-    width: 310px; 
+    width: 290px; 
 }
 .button-secondary:hover {
     opacity: .9;
-    border: none;
 }
 .button-secondary:active{
     background-color: darken($secondary, 5%);
